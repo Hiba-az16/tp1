@@ -1,1 +1,7 @@
 test push
+cat > app.py << 'EOF'
+def initialiser():
+"""Initialise le système."""
+print("Démarrage du système...")
+if __name__ == "__main__":
+initialiser()
